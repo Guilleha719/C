@@ -1,0 +1,12 @@
+#include <stdio.h> //import en python
+//Función principal o cuerpo principal def main():
+int main(void) {
+  printf("Hello World\n");
+  return(0);
+}
+/*
+TIPOS DE DATOS
+int -> entero
+float-> número en coma flotante
+char-> letra
+*/
