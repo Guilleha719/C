@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) {
+ //Definimos las variables
+  int num1=0;
+  int num2=0;
+  int suma=0;
+  //Instrucción de entrada scanf()
+  //instrucción de salida printf()
+  // num1=input("Dime un número: ")
+  printf("\nDime un número: ");//\n significa cambio de línea
+  scanf("%d",&num1);//pongo %d porque es entero
+  printf("\nHas introducido el número: %d",num1);
+  printf("\nDime otro número: ");
+  scanf("%d",&num2);
+  printf("\nHas introducido el número: %d",num2);
+  //SUMO AMBOS NÚMEROS
+  suma=num1+num2;
+  //MUESTRO POR PANTALLA EL RESULTADO
+  //prinf(str(num1)+"+"+str(num2)+"="+str(suma))
+  printf(" %d + %d = %d ",num1,num2,suma);
+ 
+  return 0;
+}
